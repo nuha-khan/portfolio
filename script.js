@@ -110,6 +110,10 @@ document.addEventListener('DOMContentLoaded', function () {
       element.textContent = '';
       element.style.display = 'none';
     }
+    
   });
 
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById("year").textContent = new Date().getFullYear();
+});
 
